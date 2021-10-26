@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="land.css">
+    <title>landing page</title>
+</head>
+<body>
+   
+        <nav id="nav-bar">
+            <ul id="nav-link">
+        <li><a class="nav-link" href="#products">Agency Banking</a></li>
+        <li><a class="nav-link" href="#services">Business content provider</a></li>
+        <li><a class="nav-link" href="#others">Sim unboarding</a></li>
+        </ul>
+        </nav>
+
+        <header id="header">
+        <p class="h">Landing page Challenge</p><br>
+        <img id="header-image" src="data:image/png;base64,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" alt="landing page image">
+
+    </header>
+    
+    
+
+    <h2 id="products">Agency Banking</h2>
+    <p>This days people rarely queue at banks for services. Virtually anything you do at a bank could be done at an outlet.
+         At Fetch Business Hub, we help you with cash out transactions viz; withdrawals, 
+         deposits, transfers. we open accounts and generate BVN for you.
+          Maybe you have complaints or issues with your bank,
+           we expertly guide you resolve them. </p>
+
+
+    
+
+    <h2 id="services">Business Content provider</h2>
+<p>These days it's a fact thet the way forward is multiple streams of income. We guide you develop your venture by providing you with relevant information you need to break through and break in.</p>
+    
+        
+<h2 id="others">Sim Unboarding</h2>
+<p>We help with your sim registration, sim upgrading and sim swap. we partner with all the networks. do just come around.</p><br>
+
+    <iframe id="video" width="300" height="350" src="https://www.youtube.com/embed/lTxn2BuqyzU" frameborder="0" allowfullscreen></iframe>
+
+    <form id="form" action=""><br><br>
+        <input type="text" id="email" placeholder="please enter your mail" required><br><br>
+        <button id="submit">Submit</button>
+    </form>
+</body>
+</html>
